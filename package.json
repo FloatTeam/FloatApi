@@ -1,0 +1,32 @@
+{
+  "name": "floatapi",
+  "version": "0.0.1",
+  "description": "API for FloatHub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloatTeam/FloatApi.git"
+  },
+  "author": "FloatTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FloatTeam/FloatApi/issues"
+  },
+  "homepage": "https://github.com/FloatTeam/FloatApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.1.0",
+    "express": "^4.17.1",
+    "firebase": "^7.2.2",
+    "nodemon": "^1.19.4",
+    "standard": "^14.3.1"
+  }
+}
